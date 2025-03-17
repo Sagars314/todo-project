@@ -1,0 +1,13 @@
+
+After modifying the model, run these commands to update the database:
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+python3 manage.py runserver
+
+
+Future features
+✅ User authentication (so each user has their own tasks)
+✅ Due dates and priorities for tasks
+✅ A better UI with Bootstrap or Tailwind CSS
+✅ Deploying it online
